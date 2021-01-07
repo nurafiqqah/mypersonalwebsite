@@ -1,0 +1,52 @@
+h1 {
+	font-family: 'Galada';
+}
+h2 {
+	font-size: 50px;
+	font-family: 'Dr Sugiyama';
+}
+
+body {
+  background-image: url('https://i.pinimg.com/originals/63/61/7e/63617ecffd58c4199c2e43669ba1730f.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+mark { 
+  background-color: pink;
+  color: black;
+}
+
+body {
+  margin: 0;
+  font-family: 'Redressed';
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #F66E91;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #813549;
+  color: white;
+}
